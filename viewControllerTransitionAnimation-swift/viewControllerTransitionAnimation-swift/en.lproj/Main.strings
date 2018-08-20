@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "Image author"; ObjectID = "Pd1-sd-iok"; */
+"Pd1-sd-iok.normalTitle" = "Image author";
+
+/* Class = "UIButton"; normalTitle = "Image license"; ObjectID = "PuP-Sv-QdR"; */
+"PuP-Sv-QdR.normalTitle" = "Image license";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "XTh-68-0B8"; */
+"XTh-68-0B8.text" = "Label";
+
+/* Class = "UITextView"; text = "Description"; ObjectID = "bAs-iU-Avu"; */
+"bAs-iU-Avu.text" = "Description";
+
+/* Class = "UITextView"; text = "In general use, herbs are any plants used for flavoring, food, medicine, or perfume. \n\nCulinary use typically distinguishes herbs as referring to the leafy green parts of a plant (either fresh or dried), from a \"spice\", a product from another part of the plant, including seeds, berries, bark, roots and fruits."; ObjectID = "ePZ-v5-lFK"; */
+"ePZ-v5-lFK.text" = "In general use, herbs are any plants used for flavoring, food, medicine, or perfume. \n\nCulinary use typically distinguishes herbs as referring to the leafy green parts of a plant (either fresh or dried), from a \"spice\", a product from another part of the plant, including seeds, berries, bark, roots and fruits.";
+
+/* Class = "UILabel"; text = "Beginner Cook"; ObjectID = "xDX-Uu-2Ap"; */
+"xDX-Uu-2Ap.text" = "Beginner Cook";

@@ -12,6 +12,8 @@
 		887831522127426C0072B11C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887831502127426C0072B11C /* Main.storyboard */; };
 		887831542127426C0072B11C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887831532127426C0072B11C /* Assets.xcassets */; };
 		887831572127426C0072B11C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887831552127426C0072B11C /* LaunchScreen.storyboard */; };
+		88B8B200212B1A37009D42F2 /* HerbDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B1FE212B1A37009D42F2 /* HerbDetailsViewController.swift */; };
+		88B8B201212B1A37009D42F2 /* HerbModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B1FF212B1A37009D42F2 /* HerbModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		887831532127426C0072B11C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		887831562127426C0072B11C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		887831582127426C0072B11C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88B8B1FE212B1A37009D42F2 /* HerbDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HerbDetailsViewController.swift; sourceTree = "<group>"; };
+		88B8B1FF212B1A37009D42F2 /* HerbModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HerbModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				8878314C2127426C0072B11C /* AppDelegate.swift */,
+				88B8B1FE212B1A37009D42F2 /* HerbDetailsViewController.swift */,
+				88B8B1FF212B1A37009D42F2 /* HerbModel.swift */,
 				8878314E2127426C0072B11C /* ViewController.swift */,
 				887831502127426C0072B11C /* Main.storyboard */,
 				887831532127426C0072B11C /* Assets.xcassets */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88B8B201212B1A37009D42F2 /* HerbModel.swift in Sources */,
 				8878314F2127426C0072B11C /* ViewController.swift in Sources */,
 				8878314D2127426C0072B11C /* AppDelegate.swift in Sources */,
+				88B8B200212B1A37009D42F2 /* HerbDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
