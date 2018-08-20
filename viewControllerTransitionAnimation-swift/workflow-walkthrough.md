@@ -9,6 +9,7 @@
 
 ![imagen](../master/viewControllerTransitionAnimation-swift/assets/sketch1.gif)
 
+viewControllerTransitionAnimation-swift/assets/sketch1.gif
 ### How to create a scroll view and add imageview on it  
 
 1. Create all image view's  
