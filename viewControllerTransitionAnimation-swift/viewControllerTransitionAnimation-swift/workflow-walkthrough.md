@@ -7,7 +7,7 @@
 2. scroll view at the botton: show's the list of available herbs  
 3. the main view controller present HerbsDetailsViewController whenever the user tas one of the images in the list.  
 
-![imagen](../master/assets/sketch1.gif)
+![imagen](../master/viewControllerTransitionAnimation-swift/assets/sketch1.gif)
 
 ### How to create a scroll view and add imageview on it  
 
