@@ -29,6 +29,7 @@ class ViewController: UIViewController {
     @IBOutlet var listScrollView: UIScrollView!
     @IBOutlet var bgImage: UIImageView!
     var selectedImage: UIImageView?
+    let transition = PopAnimatior()
     
     //MARK: UIViewController
     
@@ -125,6 +126,26 @@ class ViewController: UIViewController {
         //present details view controller
         let herbDetails = storyboard!.instantiateViewController(withIdentifier: "HerbDetailsViewController") as! HerbDetailsViewController
         herbDetails.herb = selectedHerb
+        
+        // we are the delegate
+        herbDetails.transitioningDelegate = self
+        
         present(herbDetails, animated: true, completion: nil)
     }
+}
+
+// MARK: - Implementing the delegate method of UIViewControllerTransitioningDelegate
+extension ViewController: UIViewControllerTransitioningDelegate{
+    
+    // check which viewController was present
+    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        print("presented")
+        return transition
+    }
+    // check which viewController was dismissed
+    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        print("dismissed")
+        return nil // the default transition
+    }
+    
 }
